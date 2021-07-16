@@ -1,0 +1,58 @@
+
+*{
+  padding:0px;
+  margin:0px;
+}
+body {
+    font-size: 15pt;
+    padding:0px;
+    margin:0px;
+    
+}
+.card{
+  border:2px solid grey; 
+  border-radius:2px;
+  margin:4px;
+}
+.thead-dark{
+  background-color:grey;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) { 
+  .main_card{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  .card{
+    width:350px;
+    
+  }
+  
+}
+@media (max-width: 767.98px) { 
+  
+  .main_card{
+    display:flex;
+    flex-direction:column;
+  }
+}
+
+.btns{
+  margin:0 3px 3px 0;
+}
+.loader{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.loader >img{
+  width:300px;
+}
+.hidden{
+  display:none;
+}
+.fee{
+  border-radius:4px;
+}

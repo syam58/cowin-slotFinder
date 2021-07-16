@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SlotFinder</title>
+
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div class="container-fluid">
+    
+   <div class="row mt-3">
+     <div class="col-8">
+          <input type="number" id="pin-input" class="form-control" maxlength="6" 
+          minlength="6"
+          placeholder="Enter pin">
+        </div>
+        <div class="col-2">
+            <button type="submit" id="pin-submit-btn" class="btn btn-primary text-white">Check</button>
+        </div>
+   </div>
+   <div class="row mt-3">
+     <div class="col" id="stateDiv"></div>
+   </div>
+   <div class="row mt-3">
+     
+     <div class="loader hidden" id="loader">
+       <img src="loader_2.gif" alt="" />
+     </div>
+     
+     <div class="col card_container ">
+       <div class="main_card mt-3" id="main_card"></div>
+     </div>
+   </div>
+  </div>
+  
+  
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
